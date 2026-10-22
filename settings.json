@@ -1,0 +1,53 @@
+{
+  "vscode_custom_css.imports": [
+    "file:////Users/kneiht/Coding/vscode-custom-css/vscode.js",
+    "file:////Users/kneiht/Coding/vscode-custom-css/vscode.css"
+  ],
+  "todo-tree.ripgrep.ripgrep": "/opt/homebrew/bin/rg",
+  "workbench.activityBar.location": "top",
+  "workbench.colorCustomizations": {
+    // Title Bar
+    "titleBar.activeBackground": "#252a38",
+    "titleBar.activeForeground": "#cccccc",
+    "titleBar.inactiveBackground": "#252a38",
+    "titleBar.inactiveForeground": "#cccccc99",
+    // Status Bar
+    "statusBar.background": "#252a38",
+    "statusBarItem.activeBackground": "#252a38",
+    "statusBarItem.remoteBackground": "#252a38",
+    // Tab
+    "tab.activeBackground": "#252a38",
+    "tab.activeBorder": "#252a38",
+    "tab.activeBorderTop": "#252a38",
+    "tab.activeForeground": "#ffffff",
+    "tab.activeModifiedBorder": "#252a38",
+    "tab.border": "#252526",
+    "tab.dragAndDropBorder": "#ffffff",
+    "tab.hoverBackground": "#343b4d",
+    "tab.hoverBorder": "#252a38",
+    "tab.inactiveBackground": "#171b26",
+    "tab.inactiveForeground": "#ffffff80",
+    "tab.inactiveModifiedBorder": "#252a38",
+    "tab.lastPinnedBorder": "#252a38",
+    "tab.selectedBackground": "#343b4d",
+    "tab.selectedBorderTop": "#252a38",
+    "tab.selectedForeground": "#ffffffa0",
+    "tab.unfocusedActiveBackground": "#171b26",
+    "tab.unfocusedActiveBorder": "#252a38",
+    "tab.unfocusedActiveBorderTop": "#252a38",
+    "tab.unfocusedActiveForeground": "#ffffff80",
+    "tab.unfocusedActiveModifiedBorder": "#252a38",
+    "tab.unfocusedHoverBackground": "#171b26",
+    "tab.unfocusedHoverBorder": "#252a38",
+    "tab.unfocusedInactiveBackground": "#171b26",
+    "tab.unfocusedInactiveForeground": "#ffffff40",
+    "tab.unfocusedInactiveModifiedBorder": "#252a38"
+  },
+  "workbench.iconTheme": "bearded-icons",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.tree.indent": 14,
+  "git.confirmSync": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true
+}

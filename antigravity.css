@@ -1,0 +1,312 @@
+:root {
+    --window-color: #252a38;
+    --popup-border-color: #3c455d;
+    --rounded-border-radius: 0.5rem;
+}
+
+
+.monaco-inputbox,
+.extensions-search-container,
+.suggest-input-container {
+    border-radius: 0.5rem !important;
+}
+
+body>.monaco-workbench>div.monaco-grid-view>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div:nth-child(3) {
+    top: 33px !important;
+}
+
+body div.monaco-grid-view {
+    background-color: var(--window-color) !important;
+}
+
+
+/* ======== Title Bar ======= */
+.actions-container>.action-item.command-center-center {
+    background: none !important;
+    border: none !important;
+}
+
+.actions-container>.action-item.menu-entry {
+    display: none;
+}
+
+
+
+/* ======== Activity Bar ======= */
+.monaco-workbench .part.activitybar {
+    background-color: var(--window-color) !important;
+    border-color: var(--window-color) !important;
+}
+
+.monaco-action-bar.vertical {
+    width: 20px;
+}
+
+.monaco-action-bar.vertical .action-item {
+    height: 26px;
+    padding-bottom: 25px;
+}
+
+.active-item-indicator::before {
+    display: none !important;
+}
+
+.composite.has-composite-bar {
+    height: 41px !important;
+    /* border: none !important; */
+}
+
+.sidebar .actions-container {
+    margin-right: 2px !important;
+    margin-left: 2px !important;
+}
+
+.action-item.icon {
+    width: 20px !important;
+    height: 20px !important;
+    padding: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-item.icon.checked {
+    padding: 3px 5px 3px 5px !important;
+    background-color: var(--window-color) !important;
+    border-radius: 0.5rem !important;
+    /* border-radius: var(--rounded-border-radius); */
+}
+
+.action-item.icon .badge-content {
+    left: 15px !important;
+    top: 13px !important;
+    font-size: 9px !important;
+}
+
+
+/* ======== Side bar ======= */
+.sidebar {
+    margin: 0px 0px 0px 5px !important;
+    border: none !important;
+    border-radius: var(--rounded-border-radius);
+    height: calc(100%);
+    width: calc(100% - 5px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* ======= Secondary Sidebar ======= */
+.monaco-workbench .part.auxiliarybar {
+    margin: 0px 5px 0px 0px !important;
+    border: none !important;
+    border-radius: var(--rounded-border-radius);
+    width: calc(100% - 5px);
+    height: calc(100%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* Sidebar content  */
+.sidebar>.content {
+    margin-bottom: 10px !important;
+}
+
+
+/* ======= Tabs ======= */
+.tabs-and-actions-container {
+    height:40px !important;
+}
+
+.title .tabs-container {
+    height: 26px !important;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+.tabs-container>.tab.active {
+    border-radius: var(--rounded-border-radius);
+    overflow: hidden;
+    border: none;
+}
+
+/* Change the height of the tabs */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab {
+    height: 26px;
+    display: flex;
+    align-items: center;
+    border: none !important;
+    border-radius: var(--rounded-border-radius);
+    margin-right: 3px;
+}
+
+/* Change the height of the label of the tabs */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab>.monaco-icon-label {
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+/* Hide bottom border from tabs */
+.tab-border-bottom-container,
+.tab-border-top-container {
+    display: none;
+    opacity: 0;
+}
+
+/* Relocate the tab actions (x) */
+.tabs-container>.tab>.tab-actions {
+    margin: 5px 0 3px 0;
+}
+
+.tabs-container>.tab.active::after {
+    height: 26px;
+}
+
+
+/* ======= Panel ======= */
+.monaco-workbench .part.panel {
+    margin: 5px 5px 0px 5px;
+    height: calc(100% - 5px);
+    border-radius: var(--rounded-border-radius);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+div#terminal {
+    border-bottom-right-radius: var(--rounded-border-radius);
+    border-bottom-left-radius: var(--rounded-border-radius);
+    background-color: none !important;
+    overflow: hidden;
+}
+
+/* The padding-bottom is to make the terminal look better */
+.xterm-scrollable-element.mac {
+    height: calc(100% - 5px);
+    padding-bottom: 5px;
+}
+
+.composite.title.has-composite-bar {
+    height: 35px !important;
+}
+
+#workbench\.parts\.panel>div.content {
+    height: calc(100% + 10px) !important;
+}
+
+/* ======= Editor ======= */
+.monaco-workbench .part.editor>.content {
+    margin-left: 5px !important;
+    position: relative;
+    background-color: #252a38 !important;
+}
+
+div:has(> .editor-group-container)::before {
+    display: none !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container {
+    border-radius: var(--rounded-border-radius);
+    height: calc(100%);
+    width: calc(100% - 5px);
+    overflow: hidden;
+    border: none !important;
+}
+
+.monaco-workbench .part.editor .split-view-container>div:last-child>div {
+    width: calc(100% - 10px);
+}
+
+/* ======= Styling command palette ctrl+shift+p or ctrl+p ======= */
+.quick-input-widget {
+    border-radius: var(--rounded-border-radius) !important;
+    box-shadow: 0 0 5px var(--popup-border-color) !important;
+}
+
+
+
+.monaco-editor .monaco-hover,
+.hover-row,
+.monaco-hover-content,
+.monaco-resizable-hover {
+    border-radius: var(--rounded-border-radius) !important;
+    box-shadow: 0 0 5px var(--popup-border-color) !important;
+}
+
+
+
+
+
+
+
+/* ======= Scrollbar ======= */
+
+.scrollbar.vertical .slider {
+    position: absolute !important;
+    right: 7px !important;
+    width: 7px !important;
+    height: 50px !important;
+    background: #343a51 !important;
+    left: auto !important;
+    border-radius: 3px;
+
+    &:hover {
+        background: #98a1ff !important;
+        box-shadow: 0 0 15px #6c84eed0;
+    }
+}
+
+.scrollbar.horizontal .slider {
+    display: none !important;
+    position: absolute !important;
+    bottom: 10px !important;
+    width: 50px !important;
+    height: 6px !important;
+    background: #343a51 !important;
+    top: auto !important;
+    border-radius: 3px;
+
+    &:hover {
+        background: #22211f91 !important;
+        box-shadow: 0 0 15px #6c84eed0;
+    }
+}
+
+/* ======= Remove Blue Focus Borders & Outlines ======= */
+:root {
+    --vscode-focusBorder: transparent !important;
+}
+
+/* Reset outline, box shadow, and border color for focused lists and containers */
+.monaco-list:focus,
+.monaco-list.focused,
+.monaco-list-row.focused,
+.monaco-list-row.selected,
+.split-view-view:focus,
+.split-view-view.focused,
+.pane-body:focus,
+.pane-body.focused,
+.pane:focus,
+.pane.focused,
+.monaco-workbench :focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+/* Disable pseudo-elements often used for focus indicator rings */
+.monaco-list:focus::before,
+.monaco-list:focus::after,
+.monaco-list.focused::before,
+.monaco-list.focused::after,
+.monaco-workbench :focus::before,
+.monaco-workbench :focus::after {
+    display: none !important;
+    outline: none !important;
+}
