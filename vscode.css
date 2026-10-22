@@ -3,247 +3,218 @@
 .monaco-workbench.modern-ui,
 .monaco-workbench.floating-panels,
 .monaco-workbench.modern-ui-frosted-glass:not(.hc-black):not(.hc-light) {
-  --window-color: #252a38;
-  --card-bg: #171b26;
-  --hover-bg: #343b4d;
-  --popup-border-color: #3c455d;
-  --rounded-border-radius: 0.5rem;
+    --window-color: #252a38;
+    --card-bg: #171b26;
+    --hover-bg: #343b4d;
+    --popup-border-color: #3c455d;
+    --rounded-border-radius: 0.5rem;
 
-  /* ======== Standalone Trae Themes (Deep Blue) + Color Customizations ======== */
-  /* Window, Title Bar, Activity Bar & Status Bar */
-  --vscode-titleBar-activeBackground: var(--window-color) !important;
-  --vscode-titleBar-inactiveBackground: var(--window-color) !important;
-  --vscode-titleBar-activeForeground: #cccccc !important;
-  --vscode-titleBar-inactiveForeground: #cccccc99 !important;
-  --vscode-titleBar-border: transparent !important;
-  --vscode-activityBar-background: var(--window-color) !important;
-  --vscode-activityBar-foreground: #ffffff !important;
-  --vscode-activityBar-inactiveForeground: #ffffff66 !important;
-  --vscode-activityBar-border: transparent !important;
-  --vscode-activityBarBadge-background: var(--card-bg) !important;
-  --vscode-activityBarBadge-foreground: #ffffff !important;
-  --vscode-statusBar-background: var(--window-color) !important;
-  --vscode-statusBar-noFolderBackground: var(--window-color) !important;
-  --vscode-statusBar-debuggingBackground: var(--window-color) !important;
-  --vscode-statusBar-foreground: #ffffff !important;
-  --vscode-statusBar-border: transparent !important;
-  --vscode-statusBarItem-activeBackground: var(--window-color) !important;
-  --vscode-statusBarItem-remoteBackground: var(--window-color) !important;
-  --vscode-statusBarItem-remoteForeground: #ffffff !important;
+    /* ======== Standalone Trae Themes (Deep Blue) + Color Customizations ======== */
+    /* Window, Title Bar, Activity Bar & Status Bar */
+    --vscode-titleBar-activeBackground: var(--window-color) !important;
+    --vscode-titleBar-inactiveBackground: var(--window-color) !important;
+    --vscode-titleBar-activeForeground: #cccccc !important;
+    --vscode-titleBar-inactiveForeground: #cccccc99 !important;
+    --vscode-titleBar-border: transparent !important;
+    --vscode-activityBar-background: var(--window-color) !important;
+    --vscode-activityBar-foreground: #ffffff !important;
+    --vscode-activityBar-inactiveForeground: #ffffff66 !important;
+    --vscode-activityBar-border: transparent !important;
+    --vscode-activityBarBadge-background: var(--card-bg) !important;
+    --vscode-activityBarBadge-foreground: #ffffff !important;
+    --vscode-statusBar-background: var(--window-color) !important;
+    --vscode-statusBar-noFolderBackground: var(--window-color) !important;
+    --vscode-statusBar-debuggingBackground: var(--window-color) !important;
+    --vscode-statusBar-foreground: #ffffff !important;
+    --vscode-statusBar-border: transparent !important;
+    --vscode-statusBarItem-activeBackground: var(--window-color) !important;
+    --vscode-statusBarItem-remoteBackground: var(--window-color) !important;
+    --vscode-statusBarItem-remoteForeground: #ffffff !important;
 
-  /* Sidebar, Panel, Terminal & Surface Cards */
-  --vscode-sideBar-background: var(--card-bg) !important;
-  --vscode-sideBar-foreground: #cccccc !important;
-  --vscode-sideBar-border: var(--hover-bg) !important;
-  --vscode-sideBarTitle-foreground: #bbbbbb !important;
-  --vscode-sideBarSectionHeader-background: var(--card-bg) !important;
-  --vscode-sideBarSectionHeader-foreground: #cccccc !important;
-  --vscode-sideBarSectionHeader-border: var(--hover-bg) !important;
-  --vscode-panel-background: var(--card-bg) !important;
-  --vscode-panel-border: transparent !important;
-  --vscode-panelTitle-activeForeground: #e7e7e7 !important;
-  --vscode-panelTitle-inactiveForeground: #e7e7e799 !important;
-  --vscode-panelTitle-activeBorder: var(--window-color) !important;
-  --vscode-terminal-background: var(--card-bg) !important;
-  --vscode-terminal-foreground: #cccccc !important;
-  --vscode-terminal-selectionBackground: #3579ff47 !important;
-  --vscode-terminal-inactiveSelectionBackground: #3a3d41 !important;
+    /* Sidebar, Panel, Terminal & Surface Cards */
+    --vscode-sideBar-background: var(--card-bg) !important;
+    --vscode-sideBar-foreground: #cccccc !important;
+    --vscode-sideBar-border: var(--hover-bg) !important;
+    --vscode-sideBarTitle-foreground: #bbbbbb !important;
+    --vscode-sideBarSectionHeader-background: var(--card-bg) !important;
+    --vscode-sideBarSectionHeader-foreground: #cccccc !important;
+    --vscode-sideBarSectionHeader-border: var(--hover-bg) !important;
+    --vscode-panel-background: var(--card-bg) !important;
+    --vscode-panel-border: transparent !important;
+    --vscode-panelTitle-activeForeground: #e7e7e7 !important;
+    --vscode-panelTitle-inactiveForeground: #e7e7e799 !important;
+    --vscode-panelTitle-activeBorder: var(--window-color) !important;
+    --vscode-terminal-background: var(--card-bg) !important;
+    --vscode-terminal-foreground: #cccccc !important;
+    --vscode-terminal-selectionBackground: #3579ff47 !important;
+    --vscode-terminal-inactiveSelectionBackground: #3a3d41 !important;
 
-  /* Editor, Gutter, Line Numbers, Selection & Brackets */
-  --vscode-editor-background: var(--card-bg) !important;
-  --vscode-editor-foreground: #d4d4d4 !important;
-  --vscode-editorPane-background: var(--card-bg) !important;
-  --vscode-editorGutter-background: var(--card-bg) !important;
-  --vscode-editorStickyScroll-background: var(--card-bg) !important;
-  --vscode-editorStickyScrollHover-background: #282b3a !important;
-  --vscode-breadcrumb-background: var(--card-bg) !important;
-  --vscode-editorCursor-foreground: #ffffff !important;
-  --vscode-editorLineNumber-foreground: #9599a6 !important;
-  --vscode-editorLineNumber-activeForeground: #e0e3ee !important;
-  --vscode-editor-lineHighlightBackground: #282b3a !important;
-  --vscode-editor-lineHighlightBorder: transparent !important;
-  --vscode-editor-selectionBackground: #3579ff47 !important;
-  --vscode-editor-inactiveSelectionBackground: #3a3d41 !important;
-  --vscode-editor-selectionHighlightBackground: #add6ff26 !important;
-  --vscode-editorBracketMatch-background: #d5d8e03d !important;
-  --vscode-editorBracketMatch-border: #d5d8e000 !important;
-  --vscode-editorIndentGuide-background: #aabcf214 !important;
-  --vscode-editorIndentGuide-activeBackground: #aabcf23d !important;
-  --vscode-editorIndentGuide-background1: #aabcf214 !important;
-  --vscode-editorIndentGuide-activeBackground1: #aabcf23d !important;
-  --vscode-editorLink-activeForeground: #387bff !important;
+    /* Editor, Gutter, Line Numbers, Selection & Brackets */
+    --vscode-editor-background: var(--card-bg) !important;
+    --vscode-editor-foreground: #d4d4d4 !important;
+    --vscode-editorPane-background: var(--card-bg) !important;
+    --vscode-editorGutter-background: var(--card-bg) !important;
+    --vscode-editorStickyScroll-background: var(--card-bg) !important;
+    --vscode-editorStickyScrollHover-background: #282b3a !important;
+    --vscode-breadcrumb-background: var(--card-bg) !important;
+    --vscode-editorCursor-foreground: #ffffff !important;
+    --vscode-editorLineNumber-foreground: #9599a6 !important;
+    --vscode-editorLineNumber-activeForeground: #e0e3ee !important;
+    --vscode-editor-lineHighlightBackground: #282b3a !important;
+    --vscode-editor-lineHighlightBorder: transparent !important;
+    --vscode-editor-selectionBackground: #3579ff47 !important;
+    --vscode-editor-inactiveSelectionBackground: #3a3d41 !important;
+    --vscode-editor-selectionHighlightBackground: #add6ff26 !important;
+    --vscode-editorBracketMatch-background: #d5d8e03d !important;
+    --vscode-editorBracketMatch-border: #d5d8e000 !important;
+    --vscode-editorIndentGuide-background: #aabcf214 !important;
+    --vscode-editorIndentGuide-activeBackground: #aabcf23d !important;
+    --vscode-editorIndentGuide-background1: #aabcf214 !important;
+    --vscode-editorIndentGuide-activeBackground1: #aabcf23d !important;
+    --vscode-editorLink-activeForeground: #387bff !important;
 
-  /* Editor Group Header & Tabs */
-  --vscode-editorGroupHeader-tabsBackground: var(--card-bg) !important;
-  --vscode-editorGroupHeader-noTabsBackground: var(--card-bg) !important;
-  --vscode-editorGroupHeader-tabsBorder: transparent !important;
-  --vscode-editorGroupHeader-border: transparent !important;
-  --vscode-tab-activeBackground: var(--window-color) !important;
-  --vscode-tab-activeForeground: #ffffff !important;
-  --vscode-tab-activeBorder: var(--window-color) !important;
-  --vscode-tab-activeBorderTop: var(--window-color) !important;
-  --vscode-tab-activeModifiedBorder: var(--window-color) !important;
-  --vscode-tab-inactiveBackground: var(--card-bg) !important;
-  --vscode-tab-inactiveForeground: #ffffff80 !important;
-  --vscode-tab-inactiveModifiedBorder: var(--window-color) !important;
-  --vscode-tab-hoverBackground: var(--hover-bg) !important;
-  --vscode-tab-hoverBorder: var(--window-color) !important;
-  --vscode-tab-selectedBackground: var(--hover-bg) !important;
-  --vscode-tab-selectedForeground: #ffffffa0 !important;
-  --vscode-tab-selectedBorderTop: var(--window-color) !important;
-  --vscode-tab-unfocusedActiveBackground: var(--card-bg) !important;
-  --vscode-tab-unfocusedActiveForeground: #ffffff80 !important;
-  --vscode-tab-unfocusedActiveBorder: var(--window-color) !important;
-  --vscode-tab-unfocusedActiveBorderTop: var(--window-color) !important;
-  --vscode-tab-unfocusedActiveModifiedBorder: var(--window-color) !important;
-  --vscode-tab-unfocusedInactiveBackground: var(--card-bg) !important;
-  --vscode-tab-unfocusedInactiveForeground: #ffffff40 !important;
-  --vscode-tab-unfocusedInactiveModifiedBorder: var(--window-color) !important;
-  --vscode-tab-unfocusedHoverBackground: var(--card-bg) !important;
-  --vscode-tab-unfocusedHoverBorder: var(--window-color) !important;
-  --vscode-tab-border: #252526 !important;
-  --vscode-tab-lastPinnedBorder: var(--window-color) !important;
-  --vscode-tab-dragAndDropBorder: #ffffff !important;
+    /* Editor Group Header & Tabs */
+    --vscode-editorGroupHeader-tabsBackground: var(--card-bg) !important;
+    --vscode-editorGroupHeader-noTabsBackground: var(--card-bg) !important;
+    --vscode-editorGroupHeader-tabsBorder: transparent !important;
+    --vscode-editorGroupHeader-border: transparent !important;
+    --vscode-tab-activeBackground: var(--window-color) !important;
+    --vscode-tab-activeForeground: #ffffff !important;
+    --vscode-tab-activeBorder: var(--window-color) !important;
+    --vscode-tab-activeBorderTop: var(--window-color) !important;
+    --vscode-tab-activeModifiedBorder: var(--window-color) !important;
+    --vscode-tab-inactiveBackground: var(--card-bg) !important;
+    --vscode-tab-inactiveForeground: #ffffff80 !important;
+    --vscode-tab-inactiveModifiedBorder: var(--window-color) !important;
+    --vscode-tab-hoverBackground: var(--hover-bg) !important;
+    --vscode-tab-hoverBorder: var(--window-color) !important;
+    --vscode-tab-selectedBackground: var(--hover-bg) !important;
+    --vscode-tab-selectedForeground: #ffffffa0 !important;
+    --vscode-tab-selectedBorderTop: var(--window-color) !important;
+    --vscode-tab-unfocusedActiveBackground: var(--card-bg) !important;
+    --vscode-tab-unfocusedActiveForeground: #ffffff80 !important;
+    --vscode-tab-unfocusedActiveBorder: var(--window-color) !important;
+    --vscode-tab-unfocusedActiveBorderTop: var(--window-color) !important;
+    --vscode-tab-unfocusedActiveModifiedBorder: var(--window-color) !important;
+    --vscode-tab-unfocusedInactiveBackground: var(--card-bg) !important;
+    --vscode-tab-unfocusedInactiveForeground: #ffffff40 !important;
+    --vscode-tab-unfocusedInactiveModifiedBorder: var(--window-color) !important;
+    --vscode-tab-unfocusedHoverBackground: var(--card-bg) !important;
+    --vscode-tab-unfocusedHoverBorder: var(--window-color) !important;
+    --vscode-tab-border: #252526 !important;
+    --vscode-tab-lastPinnedBorder: var(--window-color) !important;
+    --vscode-tab-dragAndDropBorder: #ffffff !important;
 
-  /* Lists, Trees, Inputs, Dropdowns & Controls */
-  --vscode-selection-background: var(--hover-bg) !important;
-  --vscode-list-activeSelectionBackground: var(--hover-bg) !important;
-  --vscode-list-activeSelectionForeground: #ffffff !important;
-  --vscode-list-activeSelectionIconForeground: #ffffff !important;
-  --vscode-list-inactiveSelectionBackground: var(--hover-bg) !important;
-  --vscode-list-hoverBackground: var(--hover-bg) !important;
-  --vscode-list-focusBackground: var(--hover-bg) !important;
-  --vscode-list-dropBackground: #3579ff33 !important;
-  --vscode-input-background: var(--card-bg) !important;
-  --vscode-input-foreground: #cccccc !important;
-  --vscode-input-border: transparent !important;
-  --vscode-dropdown-background: var(--card-bg) !important;
-  --vscode-dropdown-listBackground: var(--card-bg) !important;
-  --vscode-dropdown-border: var(--popup-border-color) !important;
-  --vscode-checkbox-background: var(--card-bg) !important;
-  --vscode-checkbox-border: #6b6b6b !important;
-  --vscode-actionBar-toggledBackground: #383a49 !important;
-  --vscode-ports-iconRunningProcessForeground: #369432 !important;
+    /* Lists, Trees, Inputs, Dropdowns & Controls */
+    --vscode-selection-background: var(--hover-bg) !important;
+    --vscode-list-activeSelectionBackground: var(--hover-bg) !important;
+    --vscode-list-activeSelectionForeground: #ffffff !important;
+    --vscode-list-activeSelectionIconForeground: #ffffff !important;
+    --vscode-list-inactiveSelectionBackground: var(--hover-bg) !important;
+    --vscode-list-hoverBackground: var(--hover-bg) !important;
+    --vscode-list-focusBackground: var(--hover-bg) !important;
+    --vscode-list-dropBackground: #3579ff33 !important;
+    --vscode-input-background: var(--card-bg) !important;
+    --vscode-input-foreground: #cccccc !important;
+    --vscode-input-border: transparent !important;
+    --vscode-dropdown-background: var(--card-bg) !important;
+    --vscode-dropdown-listBackground: var(--card-bg) !important;
+    --vscode-dropdown-border: var(--popup-border-color) !important;
+    --vscode-checkbox-background: var(--card-bg) !important;
+    --vscode-checkbox-border: #6b6b6b !important;
+    --vscode-actionBar-toggledBackground: #383a49 !important;
+    --vscode-ports-iconRunningProcessForeground: #369432 !important;
 
-  /* Disable default focus outlines & modern-ui card borders */
-  --vscode-focusBorder: transparent !important;
-  --vscode-cornerRadius-large: var(--rounded-border-radius) !important;
-  --vscode-cornerRadius-medium: 0.375rem !important;
-  --vscode-cornerRadius-small: 0.375rem !important;
+    /* Disable default focus outlines & modern-ui card borders */
+    --vscode-focusBorder: transparent !important;
+    --vscode-cornerRadius-large: var(--rounded-border-radius) !important;
+    --vscode-cornerRadius-medium: 0.375rem !important;
+    --vscode-cornerRadius-small: 0.375rem !important;
 
-  /* Sync VS Code Modern UI / Floating Panels tokens with theme */
-  --modern-ui-shell-background: var(--window-color) !important;
-  --vscode-modernUI-shellBackground: var(--window-color) !important;
-  --vscode-modernUI-inactiveShellBackground: var(--window-color) !important;
-  --vscode-surface-background: var(--card-bg) !important;
-  --vscode-surface-border: transparent !important;
-  --vscode-editor-border: transparent !important;
-  --vscode-editorGroup-border: transparent !important;
-  --vscode-modernPanel-border: transparent !important;
-  --vscode-modernActivityBar-border: transparent !important;
-  --modern-ui-floating-card-border-color: transparent !important;
-  --modern-ui-floating-card-edge-color: transparent !important;
-  --modern-ui-editor-border-color: transparent !important;
+    /* Sync VS Code Modern UI / Floating Panels tokens with theme */
+    --modern-ui-shell-background: var(--window-color) !important;
+    --vscode-modernUI-shellBackground: var(--window-color) !important;
+    --vscode-modernUI-inactiveShellBackground: var(--window-color) !important;
+    --vscode-surface-background: var(--card-bg) !important;
+    --vscode-surface-border: transparent !important;
+    --vscode-editor-border: transparent !important;
+    --vscode-editorGroup-border: transparent !important;
+    --vscode-modernPanel-border: transparent !important;
+    --vscode-modernActivityBar-border: transparent !important;
+    --modern-ui-floating-card-border-color: transparent !important;
+    --modern-ui-floating-card-edge-color: transparent !important;
+    --modern-ui-editor-border-color: transparent !important;
 
-  /* Sync Modern UI Tab & Composite Bar tokens */
-  --vscode-modernTab-activeBackground: var(--window-color) !important;
-  --vscode-modernTab-hoverBackground: var(--hover-bg) !important;
-  --vscode-modernActivityBarItem-activeBackground: var(--card-bg) !important;
-  --vscode-modernActivityBarItem-hoverBackground: var(--hover-bg) !important;
-  --vscode-modernEditorTab-activeBackground: var(--window-color) !important;
-  --vscode-modernEditorTab-hoverBackground: var(--hover-bg) !important;
-  --vscode-modernEditorTab-activeHoverBackground: var(
-    --window-color
-  ) !important;
-  --vscode-modernEditorTab-inactiveBackground: transparent !important;
+    /* Sync Modern UI Tab & Composite Bar tokens */
+    --vscode-modernTab-activeBackground: var(--window-color) !important;
+    --vscode-modernTab-hoverBackground: var(--hover-bg) !important;
+    --vscode-modernActivityBarItem-activeBackground: var(--card-bg) !important;
+    --vscode-modernActivityBarItem-hoverBackground: var(--hover-bg) !important;
+    --vscode-modernEditorTab-activeBackground: var(--window-color) !important;
+    --vscode-modernEditorTab-hoverBackground: var(--hover-bg) !important;
+    --vscode-modernEditorTab-activeHoverBackground: var(--window-color) !important;
+    --vscode-modernEditorTab-inactiveBackground: transparent !important;
 
-  /* Sync Popup, Hover, Quick Input, Suggest & Frosted Glass tokens */
-  --vscode-quickInput-background: var(--card-bg) !important;
-  --vscode-quickInputList-focusBackground: var(--hover-bg) !important;
-  --vscode-editorHoverWidget-background: var(--card-bg) !important;
-  --vscode-editorHoverWidget-border: var(--popup-border-color) !important;
-  --vscode-editorHoverWidget-statusBarBackground: var(
-    --window-color
-  ) !important;
-  --vscode-editorSuggestWidget-background: var(--card-bg) !important;
-  --vscode-editorSuggestWidget-border: var(--popup-border-color) !important;
-  --vscode-editorSuggestWidget-selectedBackground: var(--hover-bg) !important;
-  --vscode-editorWidget-background: var(--card-bg) !important;
-  --vscode-editorWidget-border: var(--popup-border-color) !important;
-  --vscode-widget-border: var(--popup-border-color) !important;
-  --vscode-menu-background: var(--card-bg) !important;
-  --vscode-menu-border: var(--popup-border-color) !important;
-  --vscode-menu-selectionBackground: var(--hover-bg) !important;
-  --vscode-notifications-background: var(--card-bg) !important;
-  --vscode-notifications-border: var(--popup-border-color) !important;
-  --vscode-notificationCenterHeader-background: var(--window-color) !important;
-  --vscode-textCodeBlock-background: var(--window-color) !important;
-  --modern-ui-solid-quick-input-background: var(--card-bg) !important;
-  --modern-ui-solid-menu-background: var(--card-bg) !important;
-  --modern-ui-solid-dialog-background: var(--card-bg) !important;
-  --modern-ui-glass-quick-input-background: color-mix(
-    in srgb,
-    var(--card-bg) 94%,
-    transparent
-  ) !important;
-  --modern-ui-glass-hover-background: color-mix(
-    in srgb,
-    var(--card-bg) 94%,
-    transparent
-  ) !important;
-  --modern-ui-glass-menu-background: color-mix(
-    in srgb,
-    var(--card-bg) 94%,
-    transparent
-  ) !important;
-  --modern-ui-glass-dialog-background: color-mix(
-    in srgb,
-    var(--card-bg) 94%,
-    transparent
-  ) !important;
-  --modern-ui-glass-notifications-background: color-mix(
-    in srgb,
-    var(--card-bg) 94%,
-    transparent
-  ) !important;
-  --modern-ui-glass-background: color-mix(
-    in srgb,
-    var(--card-bg) 94%,
-    transparent
-  ) !important;
+    /* Sync Popup, Hover, Quick Input, Suggest & Frosted Glass tokens */
+    --vscode-quickInput-background: var(--card-bg) !important;
+    --vscode-quickInputList-focusBackground: var(--hover-bg) !important;
+    --vscode-editorHoverWidget-background: var(--card-bg) !important;
+    --vscode-editorHoverWidget-border: var(--popup-border-color) !important;
+    --vscode-editorHoverWidget-statusBarBackground: var(--window-color) !important;
+    --vscode-editorSuggestWidget-background: var(--card-bg) !important;
+    --vscode-editorSuggestWidget-border: var(--popup-border-color) !important;
+    --vscode-editorSuggestWidget-selectedBackground: var(--hover-bg) !important;
+    --vscode-editorWidget-background: var(--card-bg) !important;
+    --vscode-editorWidget-border: var(--popup-border-color) !important;
+    --vscode-widget-border: var(--popup-border-color) !important;
+    --vscode-menu-background: var(--card-bg) !important;
+    --vscode-menu-border: var(--popup-border-color) !important;
+    --vscode-menu-selectionBackground: var(--hover-bg) !important;
+    --vscode-notifications-background: var(--card-bg) !important;
+    --vscode-notifications-border: var(--popup-border-color) !important;
+    --vscode-notificationCenterHeader-background: var(--window-color) !important;
+    --vscode-textCodeBlock-background: var(--window-color) !important;
+    --modern-ui-solid-quick-input-background: var(--card-bg) !important;
+    --modern-ui-solid-menu-background: var(--card-bg) !important;
+    --modern-ui-solid-dialog-background: var(--card-bg) !important;
+    --modern-ui-glass-quick-input-background: color-mix(in srgb, var(--card-bg) 94%, transparent) !important;
+    --modern-ui-glass-hover-background: color-mix(in srgb, var(--card-bg) 94%, transparent) !important;
+    --modern-ui-glass-menu-background: color-mix(in srgb, var(--card-bg) 94%, transparent) !important;
+    --modern-ui-glass-dialog-background: color-mix(in srgb, var(--card-bg) 94%, transparent) !important;
+    --modern-ui-glass-notifications-background: color-mix(in srgb, var(--card-bg) 94%, transparent) !important;
+    --modern-ui-glass-background: color-mix(in srgb, var(--card-bg) 94%, transparent) !important;
 
-  /* Transparent scrollbar track & overview ruler */
-  --vscode-scrollbar-background: transparent !important;
-  --vscode-scrollbar-shadow: transparent !important;
-  --vscode-editorOverviewRuler-border: transparent !important;
+    /* Transparent scrollbar track & overview ruler */
+    --vscode-scrollbar-background: transparent !important;
+    --vscode-scrollbar-shadow: transparent !important;
+    --vscode-editorOverviewRuler-border: transparent !important;
 }
+
 
 /* ======== Window & Grid Background ======== */
 .monaco-workbench,
 .monaco-workbench > .monaco-grid-view,
 .monaco-workbench.floating-panels,
 .monaco-workbench.floating-panels > .monaco-grid-view {
-  background-color: var(--window-color) !important;
+    background-color: var(--window-color) !important;
 }
 
 .monaco-inputbox,
 .extensions-search-container,
 .suggest-input-container {
-  border-radius: var(--rounded-border-radius) !important;
+    border-radius: var(--rounded-border-radius) !important;
 }
+
 
 /* ======== Title Bar, Status Bar & Command Center ======== */
 .monaco-workbench .part.titlebar,
 .monaco-workbench .part.statusbar {
-  background-color: var(--window-color) !important;
-  border: none !important;
+    background-color: var(--window-color) !important;
+    border: none !important;
 }
 
-.monaco-workbench
-  .part.statusbar
-  > .items-container
-  > .statusbar-item.remote-kind {
-  background-color: var(--window-color) !important;
+.monaco-workbench .part.statusbar > .items-container > .statusbar-item.remote-kind {
+    background-color: var(--window-color) !important;
 }
 
 /* Hide Search Bar (Command Center / Agent Status Bar) & Try Agents Window button */
@@ -256,307 +227,223 @@
 .open-in-agents-titlebar-widget,
 .center-adjacent-toolbar-container,
 .monaco-workbench .part.titlebar .actions-container > .action-item.menu-entry,
-.monaco-workbench
-  .part.titlebar
-  .action-toolbar-container
-  .action-item.disabled {
-  display: none !important;
+.monaco-workbench .part.titlebar .action-toolbar-container .action-item.disabled {
+    display: none !important;
 }
 
 /* ======== Editor Toggle Switch (Left of Avatar) ======== */
-.monaco-workbench
-  .part.titlebar
-  > .titlebar-container
-  > .titlebar-right
-  > .action-toolbar-container {
-  display: flex !important;
-  align-items: center !important;
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container {
+    display: flex !important;
+    align-items: center !important;
 }
 
 .custom-editor-switch-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 6px;
-  height: 100%;
-  -webkit-app-region: no-drag;
-  z-index: 2500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+    height: 100%;
+    -webkit-app-region: no-drag;
+    z-index: 2500;
 }
 
 .custom-editor-switch {
-  position: relative;
-  width: 32px;
-  height: 18px;
-  padding: 0;
-  margin: 0;
-  border-radius: 999px;
-  background-color: var(--card-bg);
-  border: 1px solid var(--popup-border-color);
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  box-sizing: border-box;
-  transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
-  -webkit-app-region: no-drag;
+    position: relative;
+    width: 32px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+    border-radius: 999px;
+    background-color: var(--card-bg);
+    border: 1px solid var(--popup-border-color);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    -webkit-app-region: no-drag;
 }
 
 .custom-editor-switch:hover {
-  border-color: #6c84ee;
-  background-color: var(--hover-bg);
+    border-color: #6c84ee;
+    background-color: var(--hover-bg);
 }
 
 .custom-editor-switch-thumb {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #8b95b0;
-  transform: translateX(2px);
-  transition:
-    transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 0.2s ease;
-  pointer-events: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #8b95b0;
+    transform: translateX(2px);
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease;
+    pointer-events: none;
 }
 
 .custom-editor-switch.active {
-  background-color: #5b73e8;
-  border-color: #7c8ff8;
-  box-shadow: 0 0 10px rgba(108, 132, 238, 0.35);
+    background-color: #5b73e8;
+    border-color: #7c8ff8;
+    box-shadow: 0 0 10px rgba(108, 132, 238, 0.35);
 }
 
 .custom-editor-switch.active:hover {
-  background-color: #6c84ee;
-  border-color: #98a1ff;
+    background-color: #6c84ee;
+    border-color: #98a1ff;
 }
 
 .custom-editor-switch.active .custom-editor-switch-thumb {
-  transform: translateX(16px);
-  background-color: #ffffff;
+    transform: translateX(16px);
+    background-color: #ffffff;
 }
+
+
 
 /* ======== Activity Bar & Composite Bar (Top / Side) ======== */
 .monaco-workbench .part.activitybar {
-  background-color: var(--window-color) !important;
-  border-color: transparent !important;
+    background-color: var(--window-color) !important;
+    border-color: transparent !important;
 }
 
 .active-item-indicator::before {
-  display: none !important;
+    display: none !important;
 }
 
 /* Modern UI Composite Bar (Sidebar, Secondary Sidebar, Panel headers) */
 .monaco-workbench .pane-composite-part > .header-or-footer {
-  border: none !important;
-  background-color: transparent !important;
+    border: none !important;
+    background-color: transparent !important;
 }
 
-.monaco-workbench
-  .pane-composite-part
-  > :is(.title, .header-or-footer)
-  > .composite-bar-container
-  > .composite-bar
-  > .monaco-action-bar
-  .action-item
-  > .active-item-indicator,
+.monaco-workbench .pane-composite-part > :is(.title, .header-or-footer) > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item > .active-item-indicator,
 .monaco-workbench .part.activitybar .action-item > .active-item-indicator {
-  border-radius: var(--rounded-border-radius) !important;
+    border-radius: var(--rounded-border-radius) !important;
 }
 
-.monaco-workbench
-  .pane-composite-part
-  > :is(.title, .header-or-footer)
-  > .composite-bar-container
-  > .composite-bar
-  > .monaco-action-bar
-  .action-item.checked
-  > .active-item-indicator {
-  background-color: var(--window-color) !important;
+.monaco-workbench .pane-composite-part > :is(.title, .header-or-footer) > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.checked > .active-item-indicator {
+    background-color: var(--window-color) !important;
 }
 
-.monaco-workbench
-  .pane-composite-part
-  > :is(.title, .header-or-footer)
-  > .composite-bar-container
-  > .composite-bar
-  > .monaco-action-bar
-  .action-item:not(.checked):hover
-  > .active-item-indicator {
-  background-color: var(--hover-bg) !important;
+.monaco-workbench .pane-composite-part > :is(.title, .header-or-footer) > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:not(.checked):hover > .active-item-indicator {
+    background-color: var(--hover-bg) !important;
 }
 
 /* Fallback for non-modern-ui-tabs mode */
 .monaco-workbench:not(.modern-ui-tabs) .pane-composite-part .action-item.icon {
-  border-radius: var(--rounded-border-radius) !important;
+    border-radius: var(--rounded-border-radius) !important;
 }
 
-.monaco-workbench:not(.modern-ui-tabs)
-  .pane-composite-part
-  .action-item.icon.checked {
-  background-color: var(--window-color) !important;
-  border-radius: var(--rounded-border-radius) !important;
+.monaco-workbench:not(.modern-ui-tabs) .pane-composite-part .action-item.icon.checked {
+    background-color: var(--window-color) !important;
+    border-radius: var(--rounded-border-radius) !important;
 }
+
 
 /* ======== Sidebar & Secondary Sidebar (Auxiliary Bar) ======== */
 .monaco-workbench .part.sidebar,
 .monaco-workbench .part.auxiliarybar {
-  background-color: var(--card-bg) !important;
-  border-color: transparent !important;
-  border-radius: var(--rounded-border-radius) !important;
-  overflow: hidden;
+    background-color: var(--card-bg) !important;
+    border-color: transparent !important;
+    border-radius: var(--rounded-border-radius) !important;
+    overflow: hidden;
 }
 
 /* Fallback layout when native floating-panels is disabled */
 .monaco-workbench:not(.floating-panels) .part.sidebar {
-  margin: 0 0 0 5px !important;
-  width: calc(100% - 5px) !important;
-  height: 100% !important;
-  border: none !important;
+    margin: 0 0 0 5px !important;
+    width: calc(100% - 5px) !important;
+    height: 100% !important;
+    border: none !important;
 }
 
 .monaco-workbench:not(.floating-panels) .part.auxiliarybar {
-  margin: 0 5px 0 0 !important;
-  width: calc(100% - 5px) !important;
-  height: 100% !important;
-  border: none !important;
+    margin: 0 5px 0 0 !important;
+    width: calc(100% - 5px) !important;
+    height: 100% !important;
+    border: none !important;
 }
 
 .sidebar > .content {
-  margin-bottom: 6px !important;
+    margin-bottom: 6px !important;
 }
 
 /* File Explorer Horizontal Scroll */
-.explorer-folders-view
-  .monaco-list.horizontal-scrolling
-  > .monaco-scrollable-element
-  > .monaco-list-rows
-  > .monaco-list-row[style*="fit-content"] {
-  width: max-content !important;
+.explorer-folders-view .monaco-list.horizontal-scrolling > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[style*="fit-content"] {
+    width: max-content !important;
 }
 
-.explorer-folders-view
-  .monaco-list.horizontal-scrolling
-  > .monaco-scrollable-element
-  > .monaco-list-rows
-  > .monaco-list-row
-  .monaco-tl-row {
-  min-width: max-content !important;
+.explorer-folders-view .monaco-list.horizontal-scrolling > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .monaco-tl-row {
+    min-width: max-content !important;
 }
 
-.explorer-folders-view
-  .monaco-list.horizontal-scrolling
-  > .monaco-scrollable-element
-  > .monaco-list-rows
-  > .monaco-list-row
-  .monaco-tl-contents {
-  overflow: visible !important;
-  min-width: max-content !important;
+.explorer-folders-view .monaco-list.horizontal-scrolling > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .monaco-tl-contents {
+    overflow: visible !important;
+    min-width: max-content !important;
 }
 
-.explorer-folders-view
-  .monaco-list.horizontal-scrolling
-  > .monaco-scrollable-element
-  > .monaco-list-rows
-  > .monaco-list-row
-  .explorer-item:not(.explorer-item-edited) {
-  overflow: visible !important;
-  text-overflow: unset !important;
-  min-width: max-content !important;
+.explorer-folders-view .monaco-list.horizontal-scrolling > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .explorer-item:not(.explorer-item-edited) {
+    overflow: visible !important;
+    text-overflow: unset !important;
+    min-width: max-content !important;
 }
 
-.explorer-folders-view
-  .monaco-list.horizontal-scrolling
-  > .monaco-scrollable-element
-  > .monaco-list-rows
-  > .monaco-list-row
-  .explorer-item:not(.explorer-item-edited)
-  > .monaco-icon-label-container,
-.explorer-folders-view
-  .monaco-list.horizontal-scrolling
-  > .monaco-scrollable-element
-  > .monaco-list-rows
-  > .monaco-list-row
-  .explorer-item:not(.explorer-item-edited)
-  .monaco-icon-name-container,
-.explorer-folders-view
-  .monaco-list.horizontal-scrolling
-  > .monaco-scrollable-element
-  > .monaco-list-rows
-  > .monaco-list-row
-  .explorer-item:not(.explorer-item-edited)
-  > a {
-  overflow: visible !important;
-  text-overflow: unset !important;
-  min-width: max-content !important;
+.explorer-folders-view .monaco-list.horizontal-scrolling > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .explorer-item:not(.explorer-item-edited) > .monaco-icon-label-container,
+.explorer-folders-view .monaco-list.horizontal-scrolling > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .explorer-item:not(.explorer-item-edited) .monaco-icon-name-container,
+.explorer-folders-view .monaco-list.horizontal-scrolling > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .explorer-item:not(.explorer-item-edited) > a {
+    overflow: visible !important;
+    text-overflow: unset !important;
+    min-width: max-content !important;
 }
+
 
 /* ======== Editor & Split Editor Groups ======== */
 .monaco-workbench .part.editor {
-  background-color: var(--window-color) !important;
-  border-color: transparent !important;
-  border-radius: var(--rounded-border-radius) !important;
+    background-color: var(--window-color) !important;
+    border-color: transparent !important;
+    border-radius: var(--rounded-border-radius) !important;
 }
 
 .monaco-workbench .part.editor > .content {
-  background-color: var(--window-color) !important;
-  border-radius: var(--rounded-border-radius) !important;
+    background-color: var(--window-color) !important;
+    border-radius: var(--rounded-border-radius) !important;
 }
 
 /* Hide 1px split-view separator line between editor groups */
-.monaco-workbench
-  .part.editor
-  .monaco-split-view2.separator-border
-  > .monaco-scrollable-element
-  > .split-view-container
-  > .split-view-view:not(:first-child)::before,
+.monaco-workbench .part.editor .monaco-split-view2.separator-border > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child)::before,
 div:has(> .editor-group-container)::before {
-  display: none !important;
+    display: none !important;
 }
 
 /* Each editor group is a rounded card */
 .monaco-workbench .part.editor > .content .editor-group-container {
-  background-color: var(--card-bg) !important;
-  border-radius: var(--rounded-border-radius) !important;
-  overflow: hidden;
-  border: none !important;
+    background-color: var(--card-bg) !important;
+    border-radius: var(--rounded-border-radius) !important;
+    overflow: hidden;
+    border: none !important;
 }
 
 .monaco-workbench .part.editor .monaco-editor,
 .monaco-workbench .part.editor .monaco-editor-background,
 .monaco-workbench .part.editor .monaco-editor .margin,
 .monaco-workbench .part.editor .breadcrumbs-below-tabs .monaco-breadcrumbs {
-  background-color: var(--card-bg) !important;
+    background-color: var(--card-bg) !important;
 }
 
 /* Add gap between split editor groups without clipping the outer edge */
-.monaco-workbench
-  .part.editor
-  .monaco-split-view2.horizontal
-  > .monaco-scrollable-element
-  > .split-view-container
-  > .split-view-view:not(:first-child)
-  > .editor-group-container {
-  margin-left: 4px;
-  width: calc(100% - 4px) !important;
+.monaco-workbench .part.editor .monaco-split-view2.horizontal > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child) > .editor-group-container {
+    margin-left: 4px;
+    width: calc(100% - 4px) !important;
 }
 
-.monaco-workbench
-  .part.editor
-  .monaco-split-view2.vertical
-  > .monaco-scrollable-element
-  > .split-view-container
-  > .split-view-view:not(:first-child)
-  > .editor-group-container {
-  margin-top: 4px;
-  height: calc(100% - 4px) !important;
+.monaco-workbench .part.editor .monaco-split-view2.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child) > .editor-group-container {
+    margin-top: 4px;
+    height: calc(100% - 4px) !important;
 }
 
 /* Fallback layout when native floating-panels is disabled */
 .monaco-workbench:not(.floating-panels) .part.editor > .content {
-  margin-left: 5px !important;
-  width: calc(100% - 10px) !important;
+    margin-left: 5px !important;
+    width: calc(100% - 10px) !important;
 }
+
 
 /* ======== Editor Tabs (Pill Style) ======== */
 /* Hide connected-tab shoulders, dividers, and bottom borders in new VS Code */
@@ -564,186 +451,124 @@ div:has(> .editor-group-container)::before {
 .monaco-workbench .part.editor .tabs-container > .tab > .tab-divider,
 .monaco-workbench .part.editor .tabs-container > .tab > .tab-fill::before,
 .monaco-workbench .part.editor .tabs-container > .tab > .tab-fill::after,
-.monaco-workbench
-  .part.editor
-  .tabs-and-actions-container
-  .tab-connected-overflow-edge,
+.monaco-workbench .part.editor .tabs-and-actions-container .tab-connected-overflow-edge,
 .monaco-workbench .part.editor .tabs-and-actions-container::after,
-.monaco-workbench
-  .part.editor
-  .editor-group-container
-  > .title.title-border-bottom::after,
+.monaco-workbench .part.editor .editor-group-container > .title.title-border-bottom::after,
 .tab-border-bottom-container,
 .tab-border-top-container {
-  display: none !important;
-  content: none !important;
-  opacity: 0 !important;
+    display: none !important;
+    content: none !important;
+    opacity: 0 !important;
 }
 
-.monaco-workbench
-  .part.editor
-  > .content
-  .editor-group-container
-  > .title.tabs {
-  background-color: var(--card-bg) !important;
+.monaco-workbench .part.editor > .content .editor-group-container > .title.tabs {
+    background-color: var(--card-bg) !important;
 }
 
-.monaco-workbench
-  .part.editor
-  > .content
-  .editor-group-container
-  > .title.tabs
-  > .tabs-and-actions-container {
-  background-color: var(--card-bg) !important;
-  padding: 0 4px !important;
-  box-sizing: border-box !important;
+.monaco-workbench .part.editor > .content .editor-group-container > .title.tabs > .tabs-and-actions-container {
+    background-color: var(--card-bg) !important;
+    padding: 0 4px !important;
+    box-sizing: border-box !important;
 }
 
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  > .content
-  .editor-group-container
-  > .title.tabs
-  .tabs-container {
-  padding-bottom: 0 !important;
+.modern-ui-tabs.monaco-workbench .part.editor > .content .editor-group-container > .title.tabs .tabs-container {
+    padding-bottom: 0 !important;
 }
 
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  > .content
-  .editor-group-container
-  > .title.tabs
-  .tabs-container
-  > .tab {
-  border-block: 0 !important;
+.modern-ui-tabs.monaco-workbench .part.editor > .content .editor-group-container > .title.tabs .tabs-container > .tab {
+    border-block: 0 !important;
 }
 
 /* Modern UI Tabs pill styling via .tab-fill */
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  .tabs-container
-  > .tab
-  > .tab-fill {
-  inset: 3px 2px 2px 2px !important;
-  border-radius: var(--rounded-border-radius) !important;
-  border: none !important;
-  box-shadow: none !important;
+.modern-ui-tabs.monaco-workbench .part.editor .tabs-container > .tab > .tab-fill {
+    inset: 3px 2px 2px 2px !important;
+    border-radius: var(--rounded-border-radius) !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  .tabs-container
-  > .tab.active
-  > .tab-fill {
-  background-color: var(--window-color) !important;
+.modern-ui-tabs.monaco-workbench .part.editor .tabs-container > .tab.active > .tab-fill {
+    background-color: var(--window-color) !important;
 }
 
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  .tabs-container
-  > .tab:not(.active):hover
-  > .tab-fill {
-  background-color: var(--hover-bg) !important;
+.modern-ui-tabs.monaco-workbench .part.editor .tabs-container > .tab:not(.active):hover > .tab-fill {
+    background-color: var(--hover-bg) !important;
 }
 
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  .tabs-container
-  > .tab:not(.active):not(:hover)
-  > .tab-fill {
-  background-color: transparent !important;
+.modern-ui-tabs.monaco-workbench .part.editor .tabs-container > .tab:not(.active):not(:hover) > .tab-fill {
+    background-color: transparent !important;
 }
 
 /* Keep close button clean inside pill tabs */
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  .tabs-container
-  > .tab
-  > .tab-actions,
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  .tabs-container
-  > .tab:hover
-  > .tab-actions,
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  .tabs-container
-  > .tab.active:hover
-  > .tab-actions {
-  background: transparent !important;
-  border: none !important;
+.modern-ui-tabs.monaco-workbench .part.editor .tabs-container > .tab > .tab-actions,
+.modern-ui-tabs.monaco-workbench .part.editor .tabs-container > .tab:hover > .tab-actions,
+.modern-ui-tabs.monaco-workbench .part.editor .tabs-container > .tab.active:hover > .tab-actions {
+    background: transparent !important;
+    border: none !important;
 }
 
-.modern-ui-tabs.monaco-workbench
-  .part.editor
-  .tabs-container
-  > .tab
-  > .tab-actions::before {
-  display: none !important;
+.modern-ui-tabs.monaco-workbench .part.editor .tabs-container > .tab > .tab-actions::before {
+    display: none !important;
 }
 
 /* Fallback for classic (non-modern-ui-tabs) mode */
 .monaco-workbench:not(.modern-ui-tabs) .tabs-and-actions-container {
-  height: 35px !important;
-  align-items: center !important;
+    height: 35px !important;
+    align-items: center !important;
 }
 
 .monaco-workbench:not(.modern-ui-tabs) .title .tabs-container {
-  height: 35px !important;
-  margin: 0 !important;
-  align-items: center !important;
+    height: 35px !important;
+    margin: 0 !important;
+    align-items: center !important;
 }
 
-.monaco-workbench:not(.modern-ui-tabs)
-  .part.editor
-  > .content
-  .editor-group-container
-  > .title
-  .tabs-container
-  > .tab {
-  height: 26px !important;
-  display: flex;
-  align-items: center;
-  border: none !important;
-  border-radius: var(--rounded-border-radius);
-  margin: 0 3px 0 0 !important;
+.monaco-workbench:not(.modern-ui-tabs) .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+    height: 26px !important;
+    display: flex;
+    align-items: center;
+    border: none !important;
+    border-radius: var(--rounded-border-radius);
+    margin: 0 3px 0 0 !important;
 }
 
 .monaco-workbench:not(.modern-ui-tabs) .tabs-container > .tab.active {
-  background-color: var(--window-color) !important;
-  border-radius: var(--rounded-border-radius);
+    background-color: var(--window-color) !important;
+    border-radius: var(--rounded-border-radius);
 }
+
 
 /* ======== Panel & Terminal ======== */
 .monaco-workbench .part.panel {
-  background-color: var(--card-bg) !important;
-  border-color: transparent !important;
-  border-radius: var(--rounded-border-radius) !important;
-  overflow: hidden;
+    background-color: var(--card-bg) !important;
+    border-color: transparent !important;
+    border-radius: var(--rounded-border-radius) !important;
+    overflow: hidden;
 }
 
 .monaco-workbench .part.panel > .title {
-  border: none !important;
+    border: none !important;
 }
 
 /* Fallback layout when native floating-panels is disabled */
 .monaco-workbench:not(.floating-panels) .part.panel {
-  margin: 5px 5px 0 5px;
-  height: calc(100% - 5px);
-  display: flex;
-  flex-direction: column;
+    margin: 5px 5px 0 5px;
+    height: calc(100% - 5px);
+    display: flex;
+    flex-direction: column;
 }
 
 div#terminal {
-  border-bottom-right-radius: var(--rounded-border-radius);
-  border-bottom-left-radius: var(--rounded-border-radius);
-  overflow: hidden;
+    border-bottom-right-radius: var(--rounded-border-radius);
+    border-bottom-left-radius: var(--rounded-border-radius);
+    overflow: hidden;
 }
 
 .xterm-scrollable-element.mac {
-  height: calc(100% - 5px);
-  padding-bottom: 5px;
+    height: calc(100% - 5px);
+    padding-bottom: 5px;
 }
+
 
 /* ======== Command Palette, Hover & Popups ======== */
 .quick-input-widget,
@@ -760,10 +585,10 @@ div#terminal {
 .context-view .monaco-menu-container,
 .notifications-toasts .notification-toast,
 .notifications-center {
-  background-color: var(--card-bg) !important;
-  border: 1px solid var(--popup-border-color) !important;
-  border-radius: var(--rounded-border-radius) !important;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45) !important;
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--popup-border-color) !important;
+    border-radius: var(--rounded-border-radius) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45) !important;
 }
 
 /* Override Modern UI Frosted Glass pseudo-element background on popups */
@@ -774,56 +599,51 @@ div#terminal {
 .monaco-dialog-box::before,
 .notifications-center::before,
 .notifications-toasts .notification-toast::before {
-  background-color: color-mix(
-    in srgb,
-    var(--card-bg) 94%,
-    transparent
-  ) !important;
+    background-color: color-mix(in srgb, var(--card-bg) 94%, transparent) !important;
 }
 
 /* Position Quick Input (Cmd+P / Cmd+Shift+P) at ~1/3 from the top (Spotlight style) */
 .quick-input-widget {
-  top: 25vh !important;
+    top: 25vh !important;
 }
 
 /* Quick Input (Cmd+P / Cmd+Shift+P) inner input & list rows */
 .quick-input-widget .monaco-inputbox,
 .action-widget .action-list-filter-input {
-  background-color: var(--window-color) !important;
-  border: 1px solid var(--popup-border-color) !important;
-  border-radius: 0.375rem !important;
+    background-color: var(--window-color) !important;
+    border: 1px solid var(--popup-border-color) !important;
+    border-radius: 0.375rem !important;
 }
 
 .quick-input-list .monaco-list-row.focused,
 .quick-input-list .monaco-list-row:hover,
-.action-widget
-  .monaco-list
-  .monaco-list-row.action.focused:not(.option-disabled),
+.action-widget .monaco-list .monaco-list-row.action.focused:not(.option-disabled),
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused {
-  background-color: var(--hover-bg) !important;
-  border-radius: 0.375rem !important;
+    background-color: var(--hover-bg) !important;
+    border-radius: 0.375rem !important;
 }
 
 /* Hover & Suggest inline code blocks and status bar */
 .monaco-hover code,
 .monaco-editor .suggest-details code,
 .workbench-suggest-widget .suggest-details code {
-  background-color: var(--window-color) !important;
-  border-radius: 4px !important;
+    background-color: var(--window-color) !important;
+    border-radius: 4px !important;
 }
 
 .monaco-hover .hover-row.status-bar,
 .notifications-center-header {
-  background-color: var(--window-color) !important;
-  border-top-color: var(--popup-border-color) !important;
+    background-color: var(--window-color) !important;
+    border-top-color: var(--popup-border-color) !important;
 }
+
 
 /* ======== Scrollbar ======== */
 /* Hide scrollbar tracks/rails, shadows, and overview ruler */
 .monaco-scrollable-element > .scrollbar {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 .decorationsOverviewRuler,
@@ -831,54 +651,48 @@ canvas.decorationsOverviewRuler,
 .monaco-editor .decorationsOverviewRuler,
 .notebook-overview-ruler-container,
 .monaco-scrollable-element > .shadow {
-  display: none !important;
-  opacity: 0 !important;
+    display: none !important;
+    opacity: 0 !important;
 }
 
 .scrollbar.vertical .slider {
-  position: absolute !important;
-  right: 5px !important;
-  width: 6px !important;
-  height: 36px !important;
-  background: #343a51 !important;
-  left: auto !important;
-  border-radius: 3px;
+    position: absolute !important;
+    right: 5px !important;
+    width: 6px !important;
+    height: 36px !important;
+    background: #343a51 !important;
+    left: auto !important;
+    border-radius: 3px;
 
-  &:hover {
-    background: #98a1ff !important;
-    box-shadow: 0 0 15px #6c84eed0;
-  }
+    &:hover {
+        background: #98a1ff !important;
+        box-shadow: 0 0 15px #6c84eed0;
+    }
 }
 
-.monaco-scrollable-element:not(
-    .explorer-folders-view .monaco-scrollable-element
-  )
-  > .scrollbar.horizontal,
-.monaco-scrollable-element:not(
-    .explorer-folders-view .monaco-scrollable-element
-  )
-  > .scrollbar.horizontal
-  .slider {
-  display: none !important;
+.monaco-scrollable-element:not(.explorer-folders-view .monaco-scrollable-element) > .scrollbar.horizontal,
+.monaco-scrollable-element:not(.explorer-folders-view .monaco-scrollable-element) > .scrollbar.horizontal .slider {
+    display: none !important;
 }
 
 .explorer-folders-view .monaco-scrollable-element > .scrollbar.horizontal {
-  z-index: 14;
+    z-index: 14;
 }
 
 .explorer-folders-view .scrollbar.horizontal .slider {
-  position: absolute !important;
-  bottom: 2px !important;
-  height: 6px !important;
-  background: #343a51 !important;
-  top: auto !important;
-  border-radius: 3px;
+    position: absolute !important;
+    bottom: 2px !important;
+    height: 6px !important;
+    background: #343a51 !important;
+    top: auto !important;
+    border-radius: 3px;
 
-  &:hover {
-    background: #98a1ff !important;
-    box-shadow: 0 0 15px #6c84eed0;
-  }
+    &:hover {
+        background: #98a1ff !important;
+        box-shadow: 0 0 15px #6c84eed0;
+    }
 }
+
 
 /* ======== Remove Focus Borders & Outlines ======== */
 .monaco-list:focus,
@@ -892,8 +706,8 @@ canvas.decorationsOverviewRuler,
 .pane:focus,
 .pane.focused,
 .monaco-workbench :focus {
-  outline: none !important;
-  box-shadow: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .monaco-list:focus::before,
@@ -902,5 +716,5 @@ canvas.decorationsOverviewRuler,
 .monaco-list.focused::after,
 .monaco-workbench :focus::before,
 .monaco-workbench :focus::after {
-  outline: none !important;
+    outline: none !important;
 }
